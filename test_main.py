@@ -26,10 +26,10 @@ def test_hello_performance():
     assert duration < 1
 
 
-# # Scénario 3 : Gestion d'erreur (en cas d'erreur volontaire)
-# def test_hello_error():
-#     with pytest.raises(ValueError):
-#         hello("Test")
+""" # Scénario 3 : Gestion d'erreur (en cas d'erreur volontaire)
+def test_hello_error():
+     with pytest.raises(ValueError):
+         hello("Test") """
 
 
 # Scénario 4 : Test avec plusieurs paramètres
